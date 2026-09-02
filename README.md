@@ -23,13 +23,13 @@ The result: open a URL in your browser, log in with a password, and you have a f
 2. Run it:
 
    ```bash
-   bash setup_novnc.sh <your-password> <port>
+   bash script.sh <your-password> <port>
    ```
 
    Example:
 
    ```bash
-   bash setup_novnc.sh mySecurePass123 8080
+   bash script.sh 123123 8080
    ```
 
    Both arguments are optional — defaults are password `changeme123` and port `8080`. **Always set your own password.**
