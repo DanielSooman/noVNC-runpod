@@ -20,6 +20,9 @@ The result: open a URL in your browser, log in with a password, and you have a f
 ## Quick start
 
 1. Copy `script.sh` into your pod (via the web terminal, `scp`, or by cloning this repo).
+```
+git clone https://github.com/DanielSooman/noVNC-runpod.git
+```
 2. Run it:
 
    ```bash
@@ -31,7 +34,9 @@ The result: open a URL in your browser, log in with a password, and you have a f
    ```bash
    bash script.sh 123123 8080
    ```
-
+   ```bash
+   bash withff.sh 123123 8080
+   ```
    Both arguments are optional — defaults are password `changeme123` and port `8080`. **Always set your own password.**
 
 3. In the RunPod dashboard, go to **Edit Pod → Expose HTTP Ports** and add the port you used (e.g. `8080`).
